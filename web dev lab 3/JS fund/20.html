@@ -1,0 +1,38 @@
+let i = 3;
+
+while (i) {
+  alert( i-- );
+}
+//it alerts 3, then 3, and lastly 1
+
+
+let i = 0;
+while (++i < 5) alert( i );
+// alerts 1, 2, 3, and then 4
+
+
+let i = 0;
+while (i++ < 5) alert( i );
+// alerts 1, 2, 3, 4, and 5
+
+for (let i = 0; i < 5; i++) alert( i );
+for (let i = 0; i < 5; i++) alert( i );
+// both alert from 0 to 4
+
+
+for (let i = 2; i <= 10; i++) {
+    if (i % 2 == 0) {
+      alert( i );
+    }
+  }
+// outputs even numbers from 2-10
+
+
+let i = 0;
+while (i < 3) {
+  alert( `number ${i}!` );
+  i++;
+}
+// replaced for with while
+
+
